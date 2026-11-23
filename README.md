@@ -42,3 +42,15 @@ Install it to perform in vivo measurements with different cup sizes.
     - Calibration files (at least 1, example: `001Calibration_ap_Refmm_1_raw.txt`)
 
 - **Send the folders to** nathanael.connesson@univ-grenoble-alpes.fr
+
+Citation (bibtex)
+@article{connesson2023,
+	author  = {Connesson, Nathanael and Briot, No{\'e}mie and Rohan, Pierre-Yves and Barraud, Pierre-Alain and Elahi, Seyed Ali and Payan, Yohan},
+	keywords = {important}, 
+	title   = {Bilayer Stiffness Identification of Soft Tissues by Suction},
+	journal = {Experimental Mechanics},
+	year    = {2023},
+	volume  = {63},
+	pages   = {715--742},
+	doi     = {10.1007/s11340-023-00946-x}
+}
