@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE (PyCharm)
+.idea/
+
+# Old versions kept locally, not in the repo
+old/

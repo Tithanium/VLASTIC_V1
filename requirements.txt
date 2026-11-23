@@ -1,0 +1,11 @@
+PySide6
+setuptools
+matplotlib
+numpy>=2.0
+pandas
+pyserial
+pynput
+pySerialTransfer
+scipy
+numdifftools
+wheel
