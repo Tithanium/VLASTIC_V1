@@ -1,0 +1,44 @@
+# VLASTIC_V1
+
+**VLASTIC method to evaluate in vivo mechanical properties**
+
+The current software is associated with the **V1 hardware** — with a slider-crank mechanism.
+Install it to perform in vivo measurements with different cup sizes.
+
+## Memento
+
+- **Program available at**
+  https://github.com/Tithanium/VLASTIC_V1
+
+- **For each patient**, create a folder in `D:\Patient\sacrum_PatientNAME\`
+
+- **Open the program folder and check it contains**
+  - `main.py`,
+  - `interface_layout.py`,
+  - `requirements.txt`,
+  - `bin\config_black.ini`.
+
+- **(Optional)** You may change line 7 of `config_black.ini` so that it indicates `default_folder = D:/Patient/sacrum_PatientNAME`.
+
+- **In the graphical interface, select:**
+  - 3 tests,
+  - 5 cycles,
+  - Check the folder `D:/Patient/sacrum_PatientNAME` is selected.
+  - Click on "Pressure offset"
+
+- **Calibration:**
+  - connect the main tube to the reference tube,
+  - select diameter = REF,
+  - launch the calibration. Once a file is saved, you can stop the calibration.
+
+- **Tests:**
+  - Set a new cup on the main tube (6, 10, 15 and 20 mm),
+  - Select the proper diameter in the graphical interface (name is updated).
+  - "Start test queue" ⇒ the 3 tests are performed in a row.
+  - Check for leakage during the test!!
+  - At the end, check that the folder contains:
+    - `BLACK.txt` (size 0 ko)
+    - 12 files (3 per cup diameter, labelled `XXXTest_ap_YYmm_ZZ_raw.txt`, YY for cup diam, ZZ for test index, XXX for global index)
+    - Calibration files (at least 1, example: `001Calibration_ap_Refmm_1_raw.txt`)
+
+- **Send the folders to** nathanael.connesson@univ-grenoble-alpes.fr
