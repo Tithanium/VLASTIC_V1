@@ -4,6 +4,7 @@
 
 The current software is associated with the **V1 hardware** — with a slider-crank mechanism.
 Install it to perform in vivo measurements with different cup sizes.
+https://github.com/Tithanium/VLASTIC_V1
 
 ## Starting with VS Code
  0. Install VS code / download the containt of this github in a VLASTIC_software folder
@@ -14,9 +15,6 @@ Install it to perform in vivo measurements with different cup sizes.
  4. Done: VS Code auto-selects ./.venv as the interpreter.
 
 ## Usage Memento
-
-- **Program available at**
-  https://github.com/Tithanium/VLASTIC_V1
 
 - **For each patient**, create a folder in `D:\Patient\sacrum_PatientNAME\`
 
