@@ -5,7 +5,15 @@
 The current software is associated with the **V1 hardware** — with a slider-crank mechanism.
 Install it to perform in vivo measurements with different cup sizes.
 
-## Memento
+## Starting with VS Code
+ 0. Install VS code / download the containt of this github in a VLASTIC_software folder
+ 1. In VS code: File ▸ Open Folder… → select the VLASTIC_software folder.
+ 2. Ctrl+Shift+P → Python: Create Environment
+ 3. Pick Venv → pick the interpreter (Python 3.14.0 for the last working test) → on the next prompt tick
+    requirements.txt → it creates .venv\ and installs everything.
+ 4. Done: VS Code auto-selects ./.venv as the interpreter.
+
+## Usage Memento
 
 - **Program available at**
   https://github.com/Tithanium/VLASTIC_V1
