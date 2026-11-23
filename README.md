@@ -32,7 +32,7 @@ https://github.com/Tithanium/VLASTIC_V1
   - 3 tests,
   - 5 cycles,
   - Check the folder `D:/Patient/sacrum_PatientNAME` is selected.
-  - Click on "Pressure offset"
+  - Click on "Set Pressure offset"
 
 - **Calibration:**
   - connect the main tube to the reference tube,
