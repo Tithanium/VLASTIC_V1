@@ -15,6 +15,8 @@ https://github.com/Tithanium/VLASTIC_V1
  4. Done: VS Code auto-selects ./.venv as the interpreter.
 
 ## Usage Memento
+-	In the Direct control panel: select the proper COM, “Connect”.
+-	If nothing move during a test, check that the line is plugged (not only the usb !!)
 
 - **For each patient**, create a folder in `D:\Patient\sacrum_PatientNAME\`
 
