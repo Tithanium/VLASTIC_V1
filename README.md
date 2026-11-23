@@ -43,15 +43,17 @@ Install it to perform in vivo measurements with different cup sizes.
 
 - **Send the folders to** nathanael.connesson@univ-grenoble-alpes.fr
 
-Citation (bibtex)
+## Citation (bibtex)
 
+```bibtex
 @article{connesson2023,
-author  = {Connesson, Nathanael and Briot, No{\'e}mie and Rohan, Pierre-Yves and Barraud, Pierre-Alain and Elahi, Seyed Ali and Payan, Yohan},
-	keywords = {important},
-	title   = {Bilayer Stiffness Identification of Soft Tissues by Suction},
-	journal = {Experimental Mechanics},
-	year    = {2023},
-	volume  = {63},
-	pages   = {715--742},
-	doi     = {10.1007/s11340-023-00946-x}
-	}
+  author   = {Connesson, Nathanael and Briot, No{\'e}mie and Rohan, Pierre-Yves and Barraud, Pierre-Alain and Elahi, Seyed Ali and Payan, Yohan},
+  keywords = {important},
+  title    = {Bilayer Stiffness Identification of Soft Tissues by Suction},
+  journal  = {Experimental Mechanics},
+  year     = {2023},
+  volume   = {63},
+  pages    = {715--742},
+  doi      = {10.1007/s11340-023-00946-x}
+}
+```
